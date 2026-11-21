@@ -71,7 +71,7 @@ The project also includes an administrative dashboard for managing products and 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/arishgillani/tech-o-mech.git
+   git clone https://github.com/mustafamahmoud8/tech-o-mech.git
    ```
 
 2. Navigate to the project directory:
