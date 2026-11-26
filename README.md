@@ -1,122 +1,72 @@
-# Tech O Mech
+# tech-o-mech
 
-A modern e-commerce demo platform for gaming PCs, computer hardware, and accessories.
+> Gaming & Tech E-Commerce Store with modern UI and real-time database
 
-**Live Demo:** [https://tech-o-mech.vercel.app](https://tech-o-mech.vercel.app)
+---
 
-## Overview
+## 📋 About
 
-Tech O Mech is a full-stack e-commerce portfolio project built to demonstrate modern web development skills. It provides a shopping experience where users can browse products, manage their cart and wishlist, and place demo orders.
+Gaming & Tech E-Commerce Store with modern UI and real-time database
 
-The project also includes an administrative dashboard for managing products and customer orders.
+Built by [Mustafa Mahmoud](https://mustafa-mahmoud.vercel.app) — Full-Stack Developer from Cairo, Egypt 🇪🇬
 
-## Features
+### ✨ Key Features
 
-### Customer Features
-- Browse gaming PCs, monitors, keyboards, mice, headsets, and other hardware.
-- Search and explore products.
-- View individual product details.
-- Add and remove products from the shopping cart.
-- Manage a wishlist.
-- User registration and authentication.
-- Demo checkout and order placement.
-- View order history and order statuses.
+- 🚀 Modern, production-ready codebase
+- 📱 Fully responsive design
+- ⚡ Optimized performance
+- 🎨 Clean and intuitive UI/UX
 
-### Admin Features
-- Admin authentication.
-- Dashboard for managing the store.
-- Add, edit, and delete products.
-- Manage product details and images.
-- Manage customer orders.
-- Update order statuses.
+---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Framework:** Next.js (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Backend & Database:** Supabase
-- **Authentication:** Supabase Auth
-- **Testing:** Vitest
-- **Deployment:** Vercel
-- **Version Control:** Git & GitHub
+| Technology | Version |
+|-----------|---------|
+| `Next.js` | latest |
+| `TypeScript` | latest |
+| `Supabase` | latest |
+| `TailwindCSS` | latest |
 
-## Screenshots
+---
 
-### Homepage
-![Tech O Mech Homepage](public/screenshots/homepage.png)
-
-### Products Page
-![Products Page](public/screenshots/products.png)
-
-### Product Details
-![Product Details](public/screenshots/product-details.png)
-
-### Shopping Cart
-![Shopping Cart](public/screenshots/shopping-cart.png)
-
-### Admin Dashboard
-![Admin Dashboard](public/screenshots/admin-dashboard.png)
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js
-- npm
-- A Supabase project
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/mustafamahmoud8/tech-o-mech.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd tech-o-mech
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Create a `.env.local` file in the root directory and configure your Supabase credentials:
-
-   ```env
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
-   ```
-
-5. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-6. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Testing
-
-Unit tests are written using Vitest.
-
-Run the test suite:
+## 🚀 Setup
 
 ```bash
-npm run test
+git clone https://github.com/mustafaelzoghby/tech-o-mech
+cd tech-o-mech
+pnpm install
+pnpm run dev
 ```
 
-## Deployment
+## ⚙️ Environment Variables
 
-The application is deployed on Vercel:
+Create a `.env` / `.env.local` file (never commit it):
 
-[https://tech-o-mech.vercel.app](https://tech-o-mech.vercel.app)
+```env
+DATABASE_URL=your_db_url
+SECRET_KEY=your_secret
+API_URL=your_api_url
+```
 
-## Important Note
+## 🧪 Tests
+```bash
+pnpm run test
+```
 
-Tech O Mech is a portfolio demonstration project. Checkout and order management are provided for demonstration purposes. The application does not process real payments or collect real payment card information.
+---
+
+## 👨💻 Author
+
+**Mustafa Mahmoud** — Full-Stack Developer
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-mustafa--mahmoud.vercel.app-purple?style=flat-square)](https://mustafa-mahmoud.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-mustafaelzoghby-black?style=flat-square&logo=github)](https://github.com/mustafaelzoghby)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mustafa%20Mahmoud-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mustafa-mahmoud-4a38643b9)
+[![Email](https://img.shields.io/badge/Email-mustafaelzoghby7%40gmail.com-red?style=flat-square&logo=gmail)](mailto:mustafaelzoghby7@gmail.com)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
